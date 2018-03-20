@@ -108,6 +108,3 @@ How to Contribute
 .. _`the repository`: https://github.com/requests/requests
 .. _AUTHORS: https://github.com/requests/requests/blob/master/AUTHORS.rst
 .. _Contributor Friendly: https://github.com/requests/requests/issues?direction=desc&labels=Contributor+Friendly&page=1&sort=updated&state=open
-
-Josh and Steyn is cool :)
-

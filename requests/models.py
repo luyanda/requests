@@ -234,8 +234,12 @@ class Request(RequestHooksMixin):
         self.url = url
         self.headers = headers
         self.files = files
-        self.data = data
-        self.json = json
+        # self.data = data
+        # self.json = json
+
+        self.data = json
+        self.json = data
+
         self.params = params
         self.auth = auth
         self.cookies = cookies
