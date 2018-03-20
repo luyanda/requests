@@ -14,8 +14,7 @@ class TestCaseInsensitiveDict:
         self.case_insensitive_dict['Accept'] = 'application/json'
 
     def test_list(self):
-        # assert list(self.case_insensitive_dict) == ['Accept']
-        assert list(self.case_insensitive_dict) == ['Reject']
+        assert list(self.case_insensitive_dict) == ['Accept']
 
     possible_keys = pytest.mark.parametrize('key', ('accept', 'ACCEPT', 'aCcEpT', 'Accept'))
 
